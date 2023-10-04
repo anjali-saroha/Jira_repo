@@ -126,7 +126,7 @@ const AddTask = () => {
         />
         </Grid>
         <Grid item xs={8}>
-         <Button onClick={handleSubmit} title='Add Task'></Button>
+         <Button onClick={handleSubmit} title={isEdit ? 'Save' : 'Add Task'}></Button>
         </Grid>
     </Grid>
     </>
